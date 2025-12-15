@@ -10,16 +10,16 @@
 <body>
 
     <h1>Student Form</h1>
-    <form>
+    <form method="post" action="#">
         <label for="fName">First Name</label>
-        <input placeholder="Enter First Name" type="text" id="fName" name="first_name" required>
+        <input placeholder="Enter First Name" type="text" id="fName" name="first_name">
         <br><br>
         <label for="lName">Last Name</label>
         <input placeholder="Enter Last Name" type="text" id="lName" name="last_name">
 
         <br><br>
         <label for="em">Email</label>
-        <input placeholder="Enter Email" type="email" id="em" name="email" required>
+        <input placeholder="Enter Email" type="email" id="em" name="email">
 
         <br><br>
         <label for="pw">Password</label>
@@ -66,6 +66,12 @@
         <br><br>
         <label for="dob">Date Of Birth</label>
         <input type="date" name="date_of_birth" id="dob">
+        <br><br>
+        <label for="app">Appoinment</label>
+        <input type="datetime-local" name="appoinment" id="app">
+        <br><br>
+        <label for="f">File</label>
+        <input type="file" name="user_files" id="f" multiple accept=".jpg, .png, .jpeg, .mp4">
         <br><br>
         <button type="submit">Save Info</button>
         <!-- <input type="submit" value="Save Student"> -->
