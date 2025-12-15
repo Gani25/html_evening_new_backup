@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+
+    <h1>Student Form</h1>
+    <form>
+        <label for="fName">First Name</label>
+        <input placeholder="Enter First Name" type="text" id="fName" name="first_name" required>
+        <br><br>
+        <label for="lName">Last Name</label>
+        <input placeholder="Enter Last Name" type="text" id="lName" name="last_name">
+
+        <br><br>
+        <label for="em">Email</label>
+        <input placeholder="Enter Email" type="email" id="em" name="email" required>
+
+        <br><br>
+        <label for="pw">Password</label>
+        <input placeholder="Enter Password" type="password" id="pw" name="password">
+        <br><br>
+        <label>Gender</label>
+        <input type="radio" id="m" name="gender" value="Male" checked>
+        <label for="m">Male</label>
+        <input type="radio" id="f" name="gender" value="Female">
+        <label for="f">Female</label>
+        <input type="radio" id="o" name="gender" value="Other">
+        <label for="o">Other</label>
+        <br><br>
+        <label for="country">Country</label>
+        <select name="user_country" id="country">
+            <option value="">Choose Country</option>
+            <option value="India">India</option>
+            <option value="Nepal">Nepal</option>
+            <option value="USA">USA</option>
+            <option value="UAE">Dubai</option>
+        </select>
+
+        <br><br>
+        <label for="">Skills</label>
+        <input type="checkbox" name="skills" id="Java" value="Java">
+        <label for="Java">Java</label>
+        <input type="checkbox" name="skills" id="excel" value="Excel">
+        <label for="excel">Excel</label>
+        <input type="checkbox" name="skills" id="python" value="Python">
+        <label for="python">Python</label>
+        <input type="checkbox" name="skills" id="powerbi" value="Power Bi">
+        <label for="powerbi">Power BI</label>
+
+        <br><br>
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age">
+
+        <br><br>
+        <label for="price">Price</label>
+        <input type="range" name="price_filter" id="price" min="0" max="50" step="10">
+        <br><br>
+        <label for="color">Choose Color</label>
+        <input type="color" name="fav_color" id="color">
+        <br><br>
+        <label for="dob">Date Of Birth</label>
+        <input type="date" name="date_of_birth" id="dob">
+        <br><br>
+        <button type="submit">Save Info</button>
+        <!-- <input type="submit" value="Save Student"> -->
+
+        <input type="reset">
+
+
+    </form>
+
+</body>
+
+</html>
