@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Sections</title>
+</head>
+
+<body>
+    <form action="">
+
+        <fieldset>
+            <legend>Personal</legend>
+            <label for=" fn">First Name</label>
+            <input type="text" name="firstName" id="fn">
+            <br><br>
+            <label for="ln">Last Name</label>
+            <input type="text" name="lastName" id="ln">
+            <br><br>
+            <label for="em">Email</label>
+            <input type="text" name="email" id="em">
+        </fieldset>
+        <br><br>
+
+        <fieldset>
+            <legend>Residence</legend>
+
+            <label for="add">Address</label>
+            <textarea name="address" id="add" cols="50" rows="10""></textarea>
+            <br><br>
+            <label for=" pincode">Pincode</label>
+            <input type="text" name="pincode" id="pincode">
+<br><br>
+            <label for="city">City</label>
+            <select name="city" id="city">
+                <optgroup label="Maharashtra">
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Pune">Pune</option>
+                    <option value="Nashik">Nashik</option>
+
+                </optgroup>
+                <optgroup label="Gujrat">
+                    <option value="Surat">Surat</option>
+                    <option value="Baroda">Baroda</option>
+                    <option value="Ahmedabad">Ahmedabad</option>
+
+                </optgroup>
+            </select>
+        </fieldset>
+            <br><br>
+            
+        <button type=" submit">Save</button>
+    </form>
+</body>
+
+</html>
